@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ゲンバドリル サポート / Support</title>
+<style>
+  :root {
+    --ground: #F7F8F6;
+    --ink: #1B2420;
+    --ink2: #4B564F;
+    --ink3: #79857E;
+    --line: #E1E6E1;
+    --accent: #0B7A4B;
+    --accent-soft: #E4F3EA;
+    --accent-deep: #075C38;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #101512;
+      --ink: #EAF0EC;
+      --ink2: #B8C4BC;
+      --ink3: #7E8B84;
+      --line: #26302A;
+      --accent: #34C481;
+      --accent-soft: #163828;
+      --accent-deep: #7FE3B0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: "Noto Sans JP", "Hiragino Sans", system-ui, sans-serif;
+    line-height: 1.9;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 56px 24px 96px;
+  }
+  header.top {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 8px;
+  }
+  .mark {
+    width: 40px; height: 40px;
+    border-radius: 11px;
+    background: var(--accent);
+    color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    flex: none;
+  }
+  .brand {
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 500;
+    font-size: 13.5px;
+    color: var(--ink3);
+    letter-spacing: 0.02em;
+  }
+  h1 {
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 700;
+    font-size: clamp(26px, 4.5vw, 34px);
+    line-height: 1.3;
+    margin: 18px 0 6px;
+  }
+  .h1-en {
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--ink3);
+    margin: 0 0 30px;
+  }
+  section {
+    padding: 26px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  section:last-of-type { border-bottom: none; }
+  h2 {
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 12px;
+  }
+  .ja { font-size: 15px; color: var(--ink); }
+  .en { font-size: 13px; color: var(--ink3); margin-top: 6px; line-height: 1.7; }
+  a { color: var(--accent-deep); text-decoration-thickness: 1px; }
+  a:hover { text-decoration-thickness: 2px; }
+  .contact-box {
+    background: var(--accent-soft);
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin-top: 8px;
+  }
+  .contact-box a { font-size: 16px; font-weight: 600; }
+  footer {
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    font-size: 12px;
+    color: var(--ink3);
+  }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Zen+Maru+Gothic:wght@500;700&display=swap">
+</head>
+<body>
+<div style="background:#fff7d6;border-bottom:1px solid #e6d58a;padding:14px 20px;font-size:15px;line-height:1.6;text-align:center;">
+  サポートのページは新しいページに移りました。最新の内容とお問い合わせ先はこちらをご覧ください。<br>This support page has moved. Please see the current page and contact details here.<br>
+  <a href="https://atelier.thehaven.jp/genbadrill/support/" style="font-weight:700;color:#0b7a4b;">https://atelier.thehaven.jp/genbadrill/support/</a>
+</div>
+<div class="page">
+  <header class="top">
+    <div class="mark">GD</div>
+    <div class="brand">ゲンバドリル / Genba Drill — Haven Atelier</div>
+  </header>
+
+  <h1>サポート</h1>
+  <p class="h1-en">Support</p>
+
+  <section>
+    <h2>お問い合わせ / Contact</h2>
+    <p class="ja">アプリの不具合報告・ご質問・ご要望は、下記メールアドレスまでご連絡ください。できる限り対応いたします。</p>
+    <p class="en">For bug reports, questions, or requests about the app, please email us below. We do our best to respond.</p>
+    <div class="contact-box">
+      <a href="mailto:haven.j.atelier@gmail.com">haven.j.atelier@gmail.com</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>このアプリについて / About this app</h2>
+    <p class="ja">「ゲンバドリル」は、建設分野特定技能1号評価試験の学習を助ける非公式のアプリです。Haven Atelier が個人で開発・運営しており、建設技能人材機構（JAC）および国土交通省とは一切関係ありません。</p>
+    <p class="en">Genba Drill is an independent, unofficial study aid for Japan&rsquo;s construction-sector Specified Skilled Worker exam, developed and operated by Haven Atelier. It is not affiliated with the Japan Association for Construction Human Resources (JAC) or Japan&rsquo;s Ministry of Land, Infrastructure, Transport and Tourism.</p>
+  </section>
+
+  <section>
+    <h2>プライバシーポリシー / Privacy Policy</h2>
+    <p class="ja">アプリが扱う情報については、<a href="./privacy-policy.html">プライバシーポリシー</a>をご確認ください。</p>
+    <p class="en">See our <a href="./privacy-policy.html">Privacy Policy</a> for details on what information the app touches.</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Haven Atelier</p>
+  </footer>
+</div>
+</body>
+</html>

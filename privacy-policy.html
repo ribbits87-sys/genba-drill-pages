@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ゲンバドリル プライバシーポリシー / Privacy Policy</title>
+<style>
+  :root {
+    --ground: #F7F8F6;
+    --surface: #FFFFFF;
+    --surface2: #F0F3F0;
+    --ink: #1B2420;
+    --ink2: #4B564F;
+    --ink3: #79857E;
+    --line: #E1E6E1;
+    --accent: #0B7A4B;
+    --accent-soft: #E4F3EA;
+    --accent-deep: #075C38;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #101512;
+      --surface: #171D19;
+      --surface2: #1D2420;
+      --ink: #EAF0EC;
+      --ink2: #B8C4BC;
+      --ink3: #7E8B84;
+      --line: #26302A;
+      --accent: #34C481;
+      --accent-soft: #163828;
+      --accent-deep: #7FE3B0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: "Noto Sans JP", "Hiragino Sans", system-ui, sans-serif;
+    line-height: 1.9;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { max-width: 100%; }
+  .page {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 56px 24px 96px;
+  }
+  header.top {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 8px;
+  }
+  .mark {
+    width: 40px; height: 40px;
+    border-radius: 11px;
+    background: var(--accent);
+    color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    flex: none;
+  }
+  .brand {
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 500;
+    font-size: 13.5px;
+    color: var(--ink3);
+    letter-spacing: 0.02em;
+  }
+  h1 {
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 700;
+    font-size: clamp(26px, 4.5vw, 34px);
+    line-height: 1.3;
+    margin: 18px 0 6px;
+    text-wrap: balance;
+  }
+  .h1-en {
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--ink3);
+    margin: 0 0 22px;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    font-size: 12.5px;
+    color: var(--ink3);
+    padding-bottom: 26px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 30px;
+  }
+  .meta b { color: var(--ink2); font-weight: 600; }
+  .block a, .note a { color: var(--accent-deep); text-decoration-thickness: 1px; }
+  .block a:hover, .note a:hover { text-decoration-thickness: 2px; }
+  .lead {
+    background: var(--accent-soft);
+    border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin-bottom: 36px;
+  }
+  .lead p { margin: 0; }
+  .lead .ja { font-size: 15px; font-weight: 500; color: var(--ink); }
+  .lead .en { font-size: 12.5px; color: var(--ink2); margin-top: 6px; }
+  nav.toc { margin-bottom: 44px; }
+  nav.toc .toc-label {
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--ink3);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  nav.toc ol {
+    list-style: none;
+    margin: 0; padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px 20px;
+  }
+  nav.toc li a {
+    display: block;
+    font-size: 13.5px;
+    color: var(--ink2);
+    text-decoration: none;
+    padding: 6px 0;
+    border-bottom: 1px dashed var(--line);
+  }
+  nav.toc li a:hover { color: var(--accent-deep); }
+  nav.toc li a span.num {
+    color: var(--ink3);
+    font-variant-numeric: tabular-nums;
+    margin-right: 8px;
+  }
+  section {
+    padding: 30px 0;
+    border-bottom: 1px solid var(--line);
+    scroll-margin-top: 20px;
+  }
+  section:last-of-type { border-bottom: none; }
+  h2 {
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin: 0 0 16px;
+  }
+  h2 .num {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--accent-deep);
+    background: var(--accent-soft);
+    border-radius: 7px;
+    padding: 3px 8px;
+    font-variant-numeric: tabular-nums;
+  }
+  .block { margin-bottom: 16px; }
+  .block:last-child { margin-bottom: 0; }
+  .ja { font-size: 15px; color: var(--ink); }
+  .en { font-size: 13px; color: var(--ink3); margin-top: 5px; line-height: 1.7; }
+  ul.items { margin: 10px 0 0; padding-left: 0; list-style: none; }
+  ul.items li {
+    padding: 10px 0 10px 18px;
+    border-top: 1px solid var(--line);
+    position: relative;
+  }
+  ul.items li:first-child { border-top: none; }
+  ul.items li::before {
+    content: "";
+    position: absolute;
+    left: 2px; top: 19px;
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  .note {
+    margin-top: 14px;
+    font-size: 12.5px;
+    color: var(--ink3);
+    background: var(--surface2);
+    border-radius: 10px;
+    padding: 12px 14px;
+  }
+  footer {
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    font-size: 12px;
+    color: var(--ink3);
+  }
+  @media (max-width: 520px) {
+    nav.toc ol { grid-template-columns: 1fr; }
+  }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Zen+Maru+Gothic:wght@500;700&display=swap">
+</head>
+<body>
+<div style="background:#fff7d6;border-bottom:1px solid #e6d58a;padding:14px 20px;font-size:15px;line-height:1.6;text-align:center;">
+  プライバシーポリシーは新しいページに移りました。最新の内容はこちらをご覧ください。<br>This privacy policy has moved. Please see the current version here.<br>
+  <a href="https://atelier.thehaven.jp/genbadrill/privacy/" style="font-weight:700;color:#0b7a4b;">https://atelier.thehaven.jp/genbadrill/privacy/</a>
+</div>
+<div class="page">
+  <header class="top">
+    <div class="mark">GD</div>
+    <div class="brand">ゲンバドリル / Genba Drill — Haven Atelier</div>
+  </header>
+
+  <h1>プライバシーポリシー</h1>
+  <p class="h1-en">Privacy Policy</p>
+
+  <div class="meta">
+    <span><b>制定日 / Effective date:</b> 2026年9月4日 (September 4, 2026)</span>
+    <span><b>改定日 / Last updated:</b> 2026年10月19日 (October 19, 2026)</span>
+    <span><b>運営者 / Operator:</b> Haven Atelier</span>
+  </div>
+
+  <div class="lead">
+    <p class="ja">「ゲンバドリル」は、建設分野特定技能1号評価試験の学習を助ける<b>非公式</b>のアプリです。アカウント登録は不要で、学習の記録は端末の中だけに保存されます。このページでは、アプリが扱う情報について説明します。</p>
+    <p class="en">Genba Drill is an <b>unofficial</b> study aid for Japan&rsquo;s construction-sector Specified Skilled Worker exam. It has no account system, and your study record is stored only on your own device. This page explains what information the app touches.</p>
+  </div>
+
+  <nav class="toc">
+    <div class="toc-label">目次 / Contents</div>
+    <ol>
+      <li><a href="#collect"><span class="num">01</span>収集する情報</a></li>
+      <li><a href="#use"><span class="num">02</span>情報の利用目的</a></li>
+      <li><a href="#ads"><span class="num">03</span>広告（第三者サービス）</a></li>
+      <li><a href="#storage"><span class="num">04</span>データの保存場所</a></li>
+      <li><a href="#sharing"><span class="num">05</span>第三者への提供</a></li>
+      <li><a href="#rights"><span class="num">06</span>データの削除・お客様の権利</a></li>
+      <li><a href="#children"><span class="num">07</span>お子様のプライバシー</a></li>
+      <li><a href="#security"><span class="num">08</span>セキュリティ</a></li>
+      <li><a href="#changes"><span class="num">09</span>ポリシーの変更</a></li>
+      <li><a href="#contact"><span class="num">10</span>お問い合わせ</a></li>
+    </ol>
+  </nav>
+
+  <section id="collect">
+    <h2><span class="num">01</span>収集する情報</h2>
+    <div class="block">
+      <p class="ja">アプリ自体は、氏名・メールアドレス・電話番号などの<b>個人情報を一切収集しません</b>。会員登録やログインの仕組みもありません。</p>
+      <p class="en">The app itself does <b>not collect any personal information</b> — no name, email address, or phone number. There is no sign-up or login.</p>
+    </div>
+    <div class="block">
+      <p class="ja">アプリを使う中で端末に保存されるのは、次のような学習・設定データだけです。</p>
+      <p class="en">The only data the app creates is local study and settings data:</p>
+      <ul class="items">
+        <li><span class="ja">学習の進捗（フラッシュカード・クイズの正誤、次回復習日）</span><br><span class="en">Study progress — flashcard/quiz results and next review dates</span></li>
+        <li><span class="ja">試験日、日英併記の表示設定などのアプリ設定</span><br><span class="en">App settings — your exam date, bilingual display toggle, and similar preferences</span></li>
+        <li><span class="ja">学習を行った日（連続学習日数の表示のため）</span><br><span class="en">Which days you studied — used only to show a streak count</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="use">
+    <h2><span class="num">02</span>情報の利用目的</h2>
+    <div class="block">
+      <p class="ja">上記のデータは、復習のタイミングを計算し、あなたの学習状況を画面に表示するためだけに使われます。統計目的や広告目的でこのデータが外部に送信されることはありません。</p>
+      <p class="en">This data is used only to schedule reviews and to show your own progress back to you. It is never sent anywhere for analytics or advertising purposes.</p>
+    </div>
+    <div class="block">
+      <p class="ja">復習の通知（毎日20時）を許可した場合、通知は端末の中で予約されます。通知のためにサーバーへ情報を送ることはありません。</p>
+      <p class="en">If you allow review reminders (daily at 20:00), they are scheduled on your device. No information is sent to a server to deliver them.</p>
+    </div>
+    <div class="block">
+      <p class="ja">「問題の誤りを報告」を使うと、お使いのメールアプリで、問題番号を記入したメールが作成されます。送信した場合に限り、そのメールアドレスと本文を受け取り、問題の修正と返信のためだけに使います。</p>
+      <p class="en">&ldquo;Report a problem with this question&rdquo; opens your own email app with the question number filled in. Only if you send it do we receive your email address and message, which we use solely to fix the question and reply to you.</p>
+    </div>
+  </section>
+
+  <section id="ads">
+    <h2><span class="num">03</span>広告（第三者サービス）</h2>
+    <div class="block">
+      <p class="ja">アプリの一部の画面には、Google が提供する広告サービス（Google AdMob）による広告が表示されます。広告の配信・測定のため、Google が広告識別子・おおよその位置情報・Cookie に類する技術などを取得する場合があります。取得される情報の詳細は、Google のプライバシーポリシーをご確認ください。</p>
+      <p class="en">Some screens show ads served by Google AdMob. To deliver and measure ads, Google may collect an advertising identifier, approximate location, and similar technologies (such as cookies). See Google&rsquo;s own Privacy Policy for details on what Google collects.</p>
+      <div class="note">
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google プライバシーポリシー / Google Privacy Policy →</a>
+      </div>
+    </div>
+    <div class="block">
+      <p class="ja">iPhone では、初回起動時に「App のトラッキング透明性（ATT）」の確認が表示されます。許可しない場合、広告識別子は使われず、パーソナライズされない広告が表示されます。許可はあとから端末の「設定」でいつでも変更できます。</p>
+      <p class="en">On iPhone, the app asks for permission under App Tracking Transparency (ATT) on first launch. If you decline, the advertising identifier is not used and ads are not personalized. You can change this at any time in your device&rsquo;s Settings.</p>
+    </div>
+    <div class="block">
+      <p class="ja">法令で同意が必要な地域（EEA（欧州経済領域）・英国・スイス、米国の一部の州など）のユーザーには、Google の同意管理プラットフォーム（UMP）による同意フォームが表示され、広告のパーソナライズについて選択できます。</p>
+      <p class="en">Where the law requires consent (such as the EEA, UK, Switzerland, and some U.S. states), a consent form from Google&rsquo;s User Messaging Platform (UMP) lets you choose whether ads are personalized.</p>
+    </div>
+    <div class="block">
+      <p class="ja">アプリ自体に、広告以外の独自のアクセス解析（アナリティクス）SDK は組み込まれていません。</p>
+      <p class="en">Aside from AdMob, the app does not embed any separate analytics SDK.</p>
+    </div>
+    <div class="block">
+      <p class="ja">アプリ内課金はありません。支払い情報を扱うことはありません。</p>
+      <p class="en">There are no in-app purchases, and the app never handles payment information.</p>
+    </div>
+  </section>
+
+  <section id="storage">
+    <h2><span class="num">04</span>データの保存場所</h2>
+    <div class="block">
+      <p class="ja">学習データ・設定データは、すべてお使いの端末内（ローカルのデータベース）に保存されます。これらのデータを保存するサーバーは存在しません。</p>
+      <p class="en">All study and settings data lives only in a local database on your own device. There is no server that stores this data.</p>
+    </div>
+  </section>
+
+  <section id="sharing">
+    <h2><span class="num">05</span>第三者への提供</h2>
+    <div class="block">
+      <p class="ja">上記「広告」に記載した Google AdMob 以外に、データを第三者へ提供・販売することはありません。</p>
+      <p class="en">Other than Google AdMob as described above, no data is shared with, or sold to, any third party.</p>
+    </div>
+  </section>
+
+  <section id="rights">
+    <h2><span class="num">06</span>データの削除・お客様の権利</h2>
+    <div class="block">
+      <p class="ja">学習データはすべて端末内にあるため、アプリをアンインストールする、または端末の設定からアプリのデータを消去することで、いつでもすべてのデータを削除できます。データがサーバーに残ることはありません。</p>
+      <p class="en">Because all data lives on your device, uninstalling the app — or clearing its data from your device settings — deletes everything immediately. Nothing remains on a server, because there is no server.</p>
+    </div>
+  </section>
+
+  <section id="children">
+    <h2><span class="num">07</span>お子様のプライバシー</h2>
+    <div class="block">
+      <p class="ja">本アプリは、就労を目的とした成人の学習者を対象としており、13歳未満のお子様を対象としていません。お子様の個人情報を意図的に収集することはありません。</p>
+      <p class="en">This app is intended for adult learners preparing for employment, and is not directed at children under 13. It does not knowingly collect personal information from children.</p>
+    </div>
+  </section>
+
+  <section id="security">
+    <h2><span class="num">08</span>セキュリティ</h2>
+    <div class="block">
+      <p class="ja">学習データが端末の外に送信されることがないため、通信経路上での漏えいリスクはありません。端末自体の紛失・盗難に対しては、端末側の画面ロック等の保護機能をご利用ください。</p>
+      <p class="en">Because study data never leaves your device, there is no transmission for it to leak from. Please rely on your device&rsquo;s own screen lock and security features to protect against loss or theft of the device itself.</p>
+    </div>
+  </section>
+
+  <section id="changes">
+    <h2><span class="num">09</span>ポリシーの変更</h2>
+    <div class="block">
+      <p class="ja">本ポリシーの内容は、法令の変更やアプリの機能追加に応じて更新される場合があります。変更した場合は、このページの「改定日」を更新してお知らせします。</p>
+      <p class="en">This policy may be updated as the law changes or the app gains new features. Any change will be reflected here with an updated &ldquo;Last updated&rdquo; date.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2><span class="num">10</span>お問い合わせ</h2>
+    <div class="block">
+      <p class="ja">本ポリシーに関するお問い合わせは、次の連絡先までお願いします：<a href="mailto:haven.j.atelier@gmail.com">haven.j.atelier@gmail.com</a></p>
+      <p class="en">For questions about this policy, please contact: <a href="mailto:haven.j.atelier@gmail.com">haven.j.atelier@gmail.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p class="ja">「ゲンバドリル」は Haven Atelier が個人で開発・運営する非公式の学習支援ツールであり、建設技能人材機構（JAC）および国土交通省とは一切関係ありません。</p>
+    <p class="en" style="margin-top:6px;">Genba Drill is an independent, unofficial study tool developed by Haven Atelier. It is not affiliated with the Japan Association for Construction Human Resources (JAC) or Japan&rsquo;s Ministry of Land, Infrastructure, Transport and Tourism.</p>
+  </footer>
+</div>
+</body>
+</html>
